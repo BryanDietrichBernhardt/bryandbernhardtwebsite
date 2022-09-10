@@ -1,0 +1,20 @@
+<div class="container mt-5">
+  <h1 class="text-center title">Contact me_</h1>
+  <div class="mt-4">
+    <form>
+      <div class="mb-2">
+        <label for="name" class="form-label d-none">Name</label>
+        <input #name type="text" class="form-control" id="name" placeholder="Name" ngModel>
+      </div>
+      <div class="mb-2">
+        <label for="message" class="form-label d-none">E-mail</label>
+        <textarea #message type="text" class="form-control" id="message" placeholder="Message" rows="6" ngModel></textarea>
+      </div>
+      <div class="btn btn-dark">
+        <a type="submit" href="mailto:contact@bryandbernhardt.com?&subject=Message from website&body=Name: {{name.value}}
+        %0D%0A
+        Message: {{message.value}}">SEND</a>
+      </div>
+    </form>
+  </div>
+</div>

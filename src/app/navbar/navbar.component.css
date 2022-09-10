@@ -1,0 +1,18 @@
+.title {
+  font-family: 'Ms Madi', cursive;
+  color: white;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.466);
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.nav-link.active {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
